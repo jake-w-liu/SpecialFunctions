@@ -16,4 +16,9 @@
     <PackageReference Include="MSTest.TestFramework" Version="3.9.1" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
 </Project>
