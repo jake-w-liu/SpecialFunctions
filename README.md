@@ -3,13 +3,61 @@
 
 A minimal C# library providing numerical implementations of common special functions, such as:
 
-- Airy functions: Ai(z), Ai'(z), Bi(z), Bi'(z)
-- Bessel functions: Jₙ(z), Yₙ(z), Iₙ(z), Kₙ(z), Hₙ^{(1)}(z), Hₙ^{(2)}(z)
-- Spherical Bessel functions: jₙ(z), yₙ(z), hₙ^{(1)}(z), hₙ^{(2)}(z)
-- Error functions: erf(x), erfc(x), erfinv(x), erfcinv(x)
-- Beta and incomplete beta functions: beta(z, w), betaln(z, w)
-- Legendre polynomials: Pₙ(x) and associated values
-- Factorials and constants (π, Earth constants, etc.)
+
+
+### Airy Functions
+- `airy(z: Complex)`
+- `airy(z: double)`
+- `airy(k: int, z: Complex)`
+- `airy(k: int, z: double)`
+
+---
+
+### Bessel Functions (First, Second, Modified, Hankel)
+- `besselj(n: double, z: Complex)`
+- `besselj(n: double, z: double)`
+- `bessely(n: double, z: Complex)`
+- `bessely(n: double, z: double)`
+- `besseli(n: double, z: Complex)`
+- `besseli(n: double, z: double)`
+- `besselk(n: double, z: Complex)`
+- `besselk(n: double, z: double)`
+- `besselh(n: double, z: Complex)`
+- `besselh(n: double, k: int, z: Complex)`
+
+---
+
+### Spherical Bessel Functions
+- `sbesselj(n: double, z: Complex)`
+- `sbesselj(n: double, z: double)`
+- `sbessely(n: double, z: Complex)`
+- `sbessely(n: double, z: double)`
+- `sbesselh(n: double, z: Complex)`
+- `sbesselh(n: double, k: int, z: Complex)`
+
+---
+
+### Beta and Log-Beta
+- `beta(z: double, w: double)`
+- `betaln(z: double, w: double)`
+
+---
+
+### Error Functions
+- `erf(x: double)`
+- `erfc(x: double)`
+- `erfinv(z: double)`
+- `erfcinv(z: double)`
+
+---
+
+### Legendre Functions
+- `legendre0(n: int, x: double)`  
+- `legendre(n: int, x: double)`
+
+### Gamma Functions
+- `gammaln(x: double)`:
+- `gamma(x: double)`
 
 The package is built upon [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) and [AminKH's Legendre Polynomials repository](https://github.com/AminKH/Legendre-Polynomials). The API is designed to closely follow the structure and naming conventions of MATLAB, facilitating a smooth transition for users who are familiar with MATLAB’s syntax and functionality. This alignment allows for rapid prototyping, intuitive usage, and easier cross-platform adaptation of existing codebases.
 
