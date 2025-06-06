@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SpecialFunctions</id>
+    <version>1.0.0</version>
+    <authors>SpecialFunctions</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="4730b951a53613a354456f0291e5287ed11dd094" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/jake/SpecialFunctions/bin/Release/net9.0/SpecialFunctions.dll" target="lib/net9.0/SpecialFunctions.dll" />
+  </files>
+</package>

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- <ItemGroup>
+    <Compile Include="src/SpecialFunctions.cs" />
+    <Compile Include="src/Amos.cs" />
+    <Compile Include="src/Polynomials.cs" />
+  </ItemGroup> -->
+
+</Project>
