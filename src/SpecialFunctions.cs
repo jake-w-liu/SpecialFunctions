@@ -570,23 +570,6 @@ namespace SpecialFunctions
             return Pnm;
         }
 
-
-        public static double[] ellipsoidal(double R, double latitute)
-        {
-            double Rlat = latitute * DEGRAD;
-            double x = Math.Sin(Rlat);
-            double x2 = x * x;
-            double w = Math.Sqrt(1.0 - e2 * x2);
-            double rp = Math.Sqrt(1.0 + e2 * (e2 - 2.0) * x2) * R / w;
-            double Rn = R / rp;
-            double rep = R / Math.Sqrt(1.0 + ep2 * x2);
-            double Ren = R / rep;
-
-            double[] ellipsoid = { rp, Rn, rep, Ren };
-
-            return ellipsoid;
-        }
-
         public static double gamma(double z)
         {
             if (z < 0.5)
