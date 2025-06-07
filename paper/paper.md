@@ -1,5 +1,5 @@
 ---
-title: 'SpecialFunctions: A C# Package of Special Functions for Scientific Computing with MATLAB-Compatible API'
+title: 'SpecialFunctions: A C# package of special functions for scientific computing with MATLAB-compatible API'
 tags:
   - C#
   - special functions
@@ -23,7 +23,7 @@ This package addresses these gaps by offering a more complete set of special fun
 
 The library is developed to support electromagnetic simulations and field transformations—specifically, cylindrical and spherical near-to-far-field (NTFF) calculations—in environments where C# is frequently used for hardware control. Full documentation and MATLAB-style references are provided for user guidance.
 
-# Statement of Need
+# Statement of need
 
 The C# ecosystem lacks a comprehensive, permissively licensed library that offers a wide range of special functions required in scientific and engineering computations. Existing libraries such as Math.NET Numerics provide partial coverage but omit important function families such as associated Legendre polynomials. Other alternatives like ALGLIB include more functionality but are distributed under the GPL license, restricting their use in commercial applications.
 
@@ -31,7 +31,7 @@ This project addresses that gap by providing an open-source, MIT-licensed librar
 
 By offering consistent naming conventions, support for complex-valued inputs, and compatibility with Math.NET Numerics, this library serves as a practical and extensible foundation for scientific applications—including, but not limited to, near-to-far-field (NTFF) transformations, wave propagation modeling, and geodetic calculations.
 
-# Overview of Features
+# Overview of features
 
 The `SpecialFunctions` library provides a comprehensive set of special functions commonly used in scientific computing. The implementation is structured to be extensible, allowing for future inclusion of additional functions. Key features include:
 

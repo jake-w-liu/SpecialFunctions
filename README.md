@@ -56,7 +56,7 @@ A minimal C# library providing numerical implementations of common special funct
 - `legendre(n: int, x: double)`
 
 ### Gamma Functions
-- `gammaln(x: double)`:
+- `gammaln(x: double)`
 - `gamma(x: double)`
 
 The package is built upon [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) and [AminKH's Legendre Polynomials repository](https://github.com/AminKH/Legendre-Polynomials). The API is designed to closely follow the structure and naming conventions of MATLAB, facilitating a smooth transition for users who are familiar with MATLAB’s syntax and functionality. This alignment allows for rapid prototyping, intuitive usage, and easier cross-platform adaptation of existing codebases.
