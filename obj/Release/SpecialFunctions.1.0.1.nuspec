@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SpecialFunctions</id>
+    <version>1.0.1</version>
+    <authors>SpecialFunctions</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>readme.md</readme>
+    <description>Package Description</description>
+    <repository type="git" commit="0105273ab6274b4af9a4717d831928a6d9abc549" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="MSTest.TestAdapter" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="MSTest.TestFramework" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NET.Test.Sdk" version="17.14.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.8.1">
+        <dependency id="MSTest.TestAdapter" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="MSTest.TestFramework" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NET.Test.Sdk" version="17.14.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="MSTest.TestAdapter" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="MSTest.TestFramework" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NET.Test.Sdk" version="17.14.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="MSTest.TestAdapter" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="MSTest.TestFramework" version="3.9.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NET.Test.Sdk" version="17.14.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/jake/SpecialFunctions/bin/Release/net472/SpecialFunctions.dll" target="lib/net472/SpecialFunctions.dll" />
+    <file src="/Users/jake/SpecialFunctions/bin/Release/net481/SpecialFunctions.dll" target="lib/net481/SpecialFunctions.dll" />
+    <file src="/Users/jake/SpecialFunctions/bin/Release/net8.0/SpecialFunctions.runtimeconfig.json" target="lib/net8.0/SpecialFunctions.runtimeconfig.json" />
+    <file src="/Users/jake/SpecialFunctions/bin/Release/net8.0/SpecialFunctions.dll" target="lib/net8.0/SpecialFunctions.dll" />
+    <file src="/Users/jake/SpecialFunctions/bin/Release/net9.0/SpecialFunctions.runtimeconfig.json" target="lib/net9.0/SpecialFunctions.runtimeconfig.json" />
+    <file src="/Users/jake/SpecialFunctions/bin/Release/net9.0/SpecialFunctions.dll" target="lib/net9.0/SpecialFunctions.dll" />
+    <file src="/Users/jake/SpecialFunctions/readme.md" target="readme.md" />
+  </files>
+</package>

@@ -248,7 +248,7 @@ namespace SpecialFunctions
             else if (k == 2)
                 return sbesselj(n, z) - Complex.ImaginaryOne * sbessely(n, z);
             else
-                return Complex.NaN;
+                return new Complex(double.NaN, double.NaN);
         }
 
         public static double betaln(double z, double w)

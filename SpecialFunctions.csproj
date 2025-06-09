@@ -1,8 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net472;net481;net5.0;net6.0;net7.0;net8.0;net9.0</TargetFramework>
+    <TargetFrameworks>net472;net481;net8.0;net9.0</TargetFrameworks>
+    <Version>1.0.1</Version>
     <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -14,11 +16,12 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.9.1" />
     <PackageReference Include="MSTest.TestFramework" Version="3.9.1" />
+    <None Include="./readme.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 
   <PropertyGroup>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 
 </Project>
