@@ -387,19 +387,3 @@ double psiVal = SF.psi(2.0);           // ψ(2)
 ```
 
 ---
-
-
-## Dependencies
-
-This library depends on an `Amos` class for low-level special function computations. The `Amos` class should provide implementations for:
-- Complex Airy functions (`Cairy`, `CairyPrime`, `Cbiry`, `CbiryPrime`)
-- Complex Bessel functions (`Cbesj`, `Cbesy`, `Cbesi`, `Cbesk`, `Cbesh1`, `Cbesh2`)
-- Error function implementations (`ErfImp`, `ErfInvImpl`)
-- Gamma function implementations (`GammaLowerRegularized`)
-
-## Usage Notes
-
-- All trigonometric operations expect angles in radians
-- Complex number support is available for most functions
-- The library maintains MATLAB compatibility in function names and behavior
-- Geodetic constants are based on standard Earth ellipsoid parameters
