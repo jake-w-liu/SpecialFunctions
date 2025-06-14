@@ -59,7 +59,7 @@ A minimal C# library providing numerical implementations of common special funct
 - `gammaln(x: double)`
 - `gamma(x: double)`
 
-The package is built upon [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics) and [AminKH's Legendre Polynomials repository](https://github.com/AminKH/Legendre-Polynomials). The API is designed to closely follow the structure and naming conventions of MATLAB, facilitating a smooth transition for users who are familiar with MATLAB’s syntax and functionality. This alignment allows for rapid prototyping, intuitive usage, and easier cross-platform adaptation of existing codebases.
+The package utilizes core numerical routines from [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics), with updated APIs for functions such as Bessel and error functions. It also includes Legendre polynomial implementations adapted from [AminKH's Legendre Polynomials repository](https://github.com/AminKH/Legendre-Polynomials). The API is designed to closely mirror MATLAB’s structure and naming conventions, enabling a smooth transition for users familiar with MATLAB syntax. This compatibility facilitates rapid prototyping, intuitive function calls, and straightforward adaptation of existing MATLAB-based codebases to C#.
 
 ## Usage
 
