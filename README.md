@@ -82,4 +82,4 @@ For detailed functionalities, please visit the [manual page](./docs/MANUAL.md).
 
 ## License
 
-MIT License or as applicable.
+MIT License.
