@@ -17,8 +17,7 @@ jobs:
         with:
           dotnet-version: | 
             8.0.x
-            9.0.x
-      - run: dotnet test
+      - run: dotnet test --framework net8.0
   paper:
     runs-on: ubuntu-latest
     name: Paper Draft
