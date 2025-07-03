@@ -1,8 +1,5 @@
 is_global = true
 build_property.RootNamespace = SpecialFunctions
-build_property.ProjectDir = /Users/jake/SpecialFunctions/
+build_property.ProjectDir = /home/regisp/code/jossreview/forks/SpecialFunctions/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 
