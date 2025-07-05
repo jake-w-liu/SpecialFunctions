@@ -60,6 +60,23 @@ A minimal C# library providing numerical implementations of common special funct
 
 The package utilizes core numerical routines from [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics), with updated APIs for functions such as Bessel and error functions. It also includes Legendre polynomial implementations adapted from [AminKH's Legendre Polynomials repository](https://github.com/AminKH/Legendre-Polynomials). The API is designed to closely mirror MATLAB’s structure and naming conventions, enabling a smooth transition for users familiar with MATLAB syntax. This compatibility facilitates rapid prototyping, intuitive function calls, and straightforward adaptation of existing MATLAB-based codebases to C#.
 
+## Installation
+
+To install the package, use the .NET CLI:
+
+```bash
+dotnet add package SpecialFunctions
+```
+
+### Supported Frameworks
+
+The library supports the following frameworks:
+
+*   .NET Framework 4.7.2 (`net472`)
+*   .NET Framework 4.8.1 (`net481`)
+*   .NET 8.0 (`net8.0`)
+*   .NET 9.0 (`net9.0`)
+
 ## Usage
 
 ```csharp
@@ -90,7 +107,7 @@ When reporting an issue, please include the following information:
 
 ### Contributing Code
 
-If you would like to contribute code to the project, please follow these steps:
+If you would like to contribute code to the project, please follow these.
 
 1.  Fork the repository.
 2.  Create a new branch for your feature or bug fix.
