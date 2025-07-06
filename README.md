@@ -90,6 +90,36 @@ Complex bessel = besselj(1.5, new Complex(1.0, 0.5));
 
 For detailed functionalities, please visit the [manual page](./docs/MANUAL.md).
 
+## Build and Test
+
+### Prerequisites
+
+To build and test this library from source, you will need the following:
+
+*   **.NET SDK:** Version 8.0 or higher.
+*   **.NET Framework:** Version 4.7.2 or higher. This is required for legacy hardware driver compatibility.
+
+### Building the Library
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/jake-w-liu/SpecialFunctions.git
+    cd SpecialFunctions
+    ```
+
+2.  **Build the project:**
+    ```bash
+    dotnet build
+    ```
+
+### Running the Tests
+
+To run the tests, use the following command:
+
+```bash
+dotnet test
+```
+
 ## Contributing
 
 We welcome contributions from the community. Here are some ways you can contribute to the project.
