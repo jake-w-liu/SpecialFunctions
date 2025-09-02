@@ -1,4 +1,3 @@
-
 # SpecialFunctions
 
 A minimal C# library providing numerical implementations of common special functions, such as:
@@ -61,6 +60,23 @@ A minimal C# library providing numerical implementations of common special funct
 
 The package utilizes core numerical routines from [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics), with updated APIs for functions such as Bessel and error functions. It also includes Legendre polynomial implementations adapted from [AminKH's Legendre Polynomials repository](https://github.com/AminKH/Legendre-Polynomials). The API is designed to closely mirror MATLAB’s structure and naming conventions, enabling a smooth transition for users familiar with MATLAB syntax. This compatibility facilitates rapid prototyping, intuitive function calls, and straightforward adaptation of existing MATLAB-based codebases to C#.
 
+## Installation
+
+To install the package, use the .NET CLI:
+
+```bash
+dotnet add package SpecialFunctions
+```
+
+### Supported Frameworks
+
+The library supports the following frameworks:
+
+*   .NET Framework 4.7.2 (`net472`)
+*   .NET Framework 4.8.1 (`net481`)
+*   .NET 8.0 (`net8.0`)
+*   .NET 9.0 (`net9.0`)
+
 ## Usage
 
 ```csharp
@@ -73,6 +89,72 @@ Complex bessel = besselj(1.5, new Complex(1.0, 0.5));
 ```
 
 For detailed functionalities, please visit the [manual page](./docs/MANUAL.md).
+
+## Build and Test
+
+### Prerequisites
+
+To build and test this library from source, you will need the following:
+
+*   **.NET SDK:** Version 8.0 or higher.
+*   **.NET Framework:** Version 4.7.2 or higher. This is required for legacy hardware driver compatibility.
+
+### Building the Library
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/jake-w-liu/SpecialFunctions.git
+    cd SpecialFunctions
+    ```
+
+2.  **Build the project:**
+    ```bash
+    dotnet build
+    ```
+
+### Running the Tests
+
+To run the tests, use the following command:
+
+```bash
+dotnet test
+```
+
+## Contributing
+
+We welcome contributions from the community. Here are some ways you can contribute to the project.
+
+### Reporting Issues
+
+If you find a bug or have a problem with the software, please open an issue on our GitHub repository.
+
+When reporting an issue, please include the following information:
+
+*   A clear and descriptive title.
+*   A detailed description of the issue, including steps to reproduce it.
+*   The version of the software you are using.
+*   Any relevant error messages or logs.
+
+### Contributing Code
+
+If you would like to contribute code to the project, please follow these.
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with a clear and descriptive commit message.
+4.  Push your changes to your fork.
+5.  Open a pull request to the main repository.
+
+Please ensure that your code adheres to the existing coding style and that all tests pass.
+
+### Seeking Support
+
+If you have a question or need help with the software, you can:
+
+*   Open an issue on our GitHub repository.
+*   Contact the maintainers directly.
+
+We will do our best to respond to your request in a timely manner.
 
 ## Notes
 
