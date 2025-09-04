@@ -8,6 +8,7 @@ authors:
   - name: Jake W. Liu
     affiliation: 1
     corresponding: true
+    orcid: 0000-0001-5458-7917
 affiliations:
   - name: Department of Electronic Engineering, National Taipei University of Technology, Taiwan
     index: 1
