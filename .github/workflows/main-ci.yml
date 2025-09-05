@@ -1,7 +1,24 @@
-name: Draft PDF
-on: [push]
+name: Test and PDF
+
+on:
+  push:
+    branches: [ "*" ]
+  pull_request:
+    branches: [ "*" ]
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: unit tests
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: | 
+            8.0.x
+            9.0.x
+      - run: dotnet test --framework net8.0
   paper:
     runs-on: ubuntu-latest
     name: Paper Draft
