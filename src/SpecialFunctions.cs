@@ -535,7 +535,7 @@ namespace SpecialFunctions
         {
             double[] Pnm = new double[n + 1];
             Pnm = legendre(n, x);
-            if (s == "nrom")
+            if (s == "norm")
             {
                 double logFactor;
                 double normalization;
