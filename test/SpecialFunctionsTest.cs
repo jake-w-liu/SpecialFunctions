@@ -383,7 +383,7 @@ namespace SpecialFunctions.Tests
             double x = 0.5;
             
             double[] normal = SF.legendre(n, x);
-            double[] normalized = SF.legendre(n, x, "nrom");
+            double[] normalized = SF.legendre(n, x, "norm");
             double[] schmidt = SF.legendre(n, x, "sch");
             
             Assert.AreEqual(n + 1, normal.Length);

@@ -5,9 +5,12 @@ tags:
   - special functions
   - scientific computing
 authors:
-  - name: Jake W. Liu
+  - name: 
+      given-names: Jake W.
+      surname: Liu
     affiliation: 1
     corresponding: true
+    orcid: 0000-0001-5458-7917
 affiliations:
   - name: Department of Electronic Engineering, National Taipei University of Technology, Taiwan
     index: 1
@@ -33,34 +36,17 @@ By offering consistent naming conventions, support for complex-valued inputs, an
 
 # Overview of features
 
-The `SpecialFunctions` library provides a comprehensive set of special functions commonly used in scientific computing. The implementation is structured to be extensible, allowing for future inclusion of additional functions. Key features include:
+The `SpecialFunctions` library provides a comprehensive set of special functions commonly used in scientific computing. The implementation is structured to be extensible, allowing for future inclusion of additional functions. Key features are grouped into the following families:
 
-- **Complete support for Bessel functions**:
-  - Regular Bessel functions: `besselj`, `bessely`, `besseli`, `besselk`
-  - Hankel functions: `besselh`
-  - Spherical Bessel functions: `sbesselj`, `sbessely`, `sbesselh`
+- **Bessel Functions**: A comprehensive suite of Bessel functions, including the first (`besselj`) and second (`bessely`) kinds, modified variants (`besseli`, `besselk`), and Hankel functions (`besselh`). Spherical Bessel functions (`sbesselj`, `sbessely`, `sbesselh`) are also supported.
 
-- **Airy functions**:
-  - `airy(z)` and higher-order variants `airy(k, z)` for real and complex inputs
+- **Airy Functions**: Airy functions (`airy`) and their derivatives for real and complex arguments.
 
-- **Gamma and related functions**:
-  - Gamma function `gamma`
-  - Log-Gamma function `gammaln`
-  - Incomplete gamma function `gammainc` (lower and upper)
-  - Digamma (Psi) function `psi`
+- **Gamma and Beta Functions**: The gamma function (`gamma`), its logarithm (`gammaln`), the incomplete gamma function (`gammainc`), and the digamma function (`psi`). The beta function (`beta`) and its logarithm (`betaln`) are also implemented.
 
-- **Error functions**:
-  - Error function `erf`
-  - Complementary error function `erfc`
-  - Inverse error functions: `erfinv`, `erfcinv`
+- **Error Functions**: The error function (`erf`), its complement (`erfc`), and their respective inverses (`erfinv`, `erfcinv`).
 
-- **Legendre polynomials**:
-  - Legendre polynomials: `legendre0(n, x)`
-  - Associated Legendre functions with normalization options: `legendre(n, x, mode)`
-    - Supports `"nrom"` (normalized) and `"sch"` (Schmidt semi-normalized) modes
-
-- **Beta function and logarithmic form**:
-  - `beta(z, w)`, `betaln(z, w)`
+- **Legendre Polynomials**: Legendre polynomials (`legendre0`) and associated Legendre functions (`legendre`) with multiple normalization options.
 
 Each function supports real and complex input variants where applicable. The library is implemented as a static class (`SF`) under the `SpecialFunctions` namespace.
 

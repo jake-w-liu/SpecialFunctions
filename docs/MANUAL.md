@@ -310,7 +310,7 @@ Computes associated Legendre functions Pₙᵐ(x) for m = 0, 1, ..., n.
 - `n` (int): Maximum degree
 - `x` (double): Input value (-1 ≤ x ≤ 1)
 - `s` (string): Normalization type (optional)
-  - `"nrom"`: Normalized Legendre functions
+  - `"norm"`: Normalized Legendre functions
   - `"sch"`: Schmidt semi-normalized functions
 
 **Returns:**
@@ -320,7 +320,7 @@ Computes associated Legendre functions Pₙᵐ(x) for m = 0, 1, ..., n.
 ```csharp
 double p3 = SF.legendre0(3, 0.5);              // P₃(0.5)
 double[] pnm = SF.legendre(3, 0.5);             // [P₀³, P₁³, P₂³, P₃³]
-double[] pnmNorm = SF.legendre(3, 0.5, "nrom"); // Normalized functions
+double[] pnmNorm = SF.legendre(3, 0.5, "norm"); // Normalized functions
 ```
 
 ---
